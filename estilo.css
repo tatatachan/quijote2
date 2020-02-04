@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+    font-family: sans-serif}
+  h1{
+    text-align: left}
+  
+h2 {
+    text-align: left}
+  
+  p {
+    text-align: justify;
+    line-height: 150%}
+  
+  footer {
+    border-top: black 3px solid;
+    color: black}
+  
+  @media screen and (min-width: 480px) and (max-width: 719px) {
+    body {
+      margin-left: 50px;
+      margin-right: 50px;
+      background-color: #80BF40;
+      color: #262673
+    }
+  }
+  
+  @media screen and (min-width: 720px) and (max-width: 1023px) {
+    body {
+      margin-left: 150px;
+      margin-right: 150px;
+      background-color: #40BFBF;
+      color: #600000
+  }
+}
+  @media screen and (min-width: 1024px) {
+    body {
+      margin-left: 30%;
+      margin-right: 30%;
+      background-color: #CCB3E6;
+      color: #971414
+    }
+  }
